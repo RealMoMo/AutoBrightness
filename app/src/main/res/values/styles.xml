@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="style_range_seekbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="rsb_indicator_padding_right">10dp</item>
+        <item name="rsb_indicator_padding_left">10dp</item>
+        <item name="rsb_indicator_padding_top">10dp</item>
+        <item name="rsb_indicator_padding_bottom">10dp</item>
+        <item name="rsb_tick_mark_mode">number</item>
+        <item name="rsb_indicator_show_mode">alwaysShow</item>
+        <item name="rsb_mode">range</item>
+        <!--70000-->
+        <item name="rsb_max">500</item>
+        <item name="rsb_min">0</item>
+    </style>
+
 </resources>

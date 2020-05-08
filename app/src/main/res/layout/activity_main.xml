@@ -7,36 +7,180 @@
 
     </data>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.MainActivity">
 
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_level1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_range">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="36"
+                android:hint="@string/level_brightness_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.jaygoo.widget.RangeSeekBar
+            android:id="@+id/sb_level1_range"
+            style="@style/style_range_seekbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_level1"
+             />
 
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_level2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sb_level1_range">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="15"
+                android:hint="@string/level_brightness_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.jaygoo.widget.RangeSeekBar
+            android:id="@+id/sb_level2_range"
+            style="@style/style_range_seekbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_level2"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_level3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sb_level2_range">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="42"
+                android:hint="@string/level_brightness_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.jaygoo.widget.RangeSeekBar
+            android:id="@+id/sb_level3_range"
+            style="@style/style_range_seekbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_level3"
+             />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_level4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sb_level3_range">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="62"
+                android:hint="@string/level_brightness_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.jaygoo.widget.RangeSeekBar
+            android:id="@+id/sb_level4_range"
+            style="@style/style_range_seekbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_level4"
+           />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_level5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sb_level4_range">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="80"
+                android:hint="@string/level_brightness_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.jaygoo.widget.RangeSeekBar
+            android:id="@+id/sb_level5_range"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_level5"
+            style="@style/style_range_seekbar" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_level6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sb_level5_range">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="100"
+                android:hint="@string/level_brightness_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.jaygoo.widget.RangeSeekBar
+            android:id="@+id/sb_level6_range"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_level6"
+            style="@style/style_range_seekbar" />
 
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_tips"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textSize="20sp"
             android:text="@string/tips"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
+            android:id="@+id/et_timeinterval"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="348dp">
+            app:layout_constraintTop_toBottomOf="@+id/sb_level6_range">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="2000"
                 android:hint="@string/time_interval" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -45,9 +189,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/auto_brightness"
+            app:layout_constraintBottom_toTopOf="@+id/tv_tips"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="526dp" />
+            app:layout_constraintTop_toBottomOf="@+id/et_timeinterval" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_range"
@@ -60,4 +205,6 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 </layout>

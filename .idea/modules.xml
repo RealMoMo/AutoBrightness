@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AutoBrightness.iml" filepath="$PROJECT_DIR$/AutoBrightness.iml" group="AutoBrightness" />
+      <module fileurl="file://$PROJECT_DIR$/app/AutoBrightness-app.iml" filepath="$PROJECT_DIR$/app/AutoBrightness-app.iml" group="AutoBrightness/app" />
+      <module fileurl="file://$PROJECT_DIR$/Settings-AutoBrightness.iml" filepath="$PROJECT_DIR$/Settings-AutoBrightness.iml" group="AutoBrightness" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AutoBrightness/app" />
     </modules>
   </component>

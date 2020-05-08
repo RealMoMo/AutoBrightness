@@ -2,7 +2,9 @@
     <string name="app_name">AutoBrightness</string>
 
     <string name="tips">Please go to Settings to turn off the light control function.</string>
-    <string name="light_sensing_ragge">Light sensing range: %1$d --- %2$d</string>
+    <string name="light_sensing_ragge">Light sensing range: [1,100]</string>
     <string name="auto_brightness">Auto Brightness</string>
     <string name="time_interval">Detection light sensing time interval(unit:millisecond)</string>
+    <string name="level_brightness_hint">Input this range bright.</string>
+
 </resources>
